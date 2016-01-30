@@ -22,7 +22,7 @@ public class UserDaoImpl implements UserDao {
     public void addUser(User user,Role role) {
         user.setSsoId(new Random(System.currentTimeMillis()).nextInt(1000000) + 10000);
         sessionFactory.getCurrentSession().save(user);
-        user.setUser_role_id(2);
+        user.setUser_role_id(1);
     }
 
     @Override

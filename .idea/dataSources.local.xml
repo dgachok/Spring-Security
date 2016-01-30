@@ -7,5 +7,11 @@
       <schema-pattern>registrapp.*</schema-pattern>
       <default-schemas>registrapp.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - amazon" uuid="4363e0fb-a1c0-45f1-8533-4a1344ef6a96">
+      <secret-storage>master_key</secret-storage>
+      <user-name>studlib</user-name>
+      <schema-pattern>mydbstudlib.*</schema-pattern>
+      <default-schemas>mydbstudlib.*</default-schemas>
+    </data-source>
   </component>
 </project>

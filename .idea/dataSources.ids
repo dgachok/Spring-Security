@@ -14,7 +14,7 @@
       <column name="lastname" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
       <column name="password" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
       <column name="email" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
-      <column name="user_role_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="Mg=="/>
+      <column name="user_role_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MQ=="/>
       <primary-key name="PRIMARY" columns="id"/>
       <foreign-key name="fk_user_user_roles" columns="user_role_id" ref-table="user_roles" ref-schema="" ref-catalog="registrapp" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
       <index name="unique_ssoId" unique="true" columns="ssoId"/>
@@ -25,6 +25,33 @@
       <column name="role" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
       <exported-key name="fk_user_user_roles" table="user" schema="" catalog="registrapp" columns="user_role_id"/>
+    </table>
+  </data-source>
+  <data-source name="MySQL - amazon" uuid="4363e0fb-a1c0-45f1-8533-4a1344ef6a96">
+    <database-info product="MySQL" version="5.6.23-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="mydbstudlib"/>
+    <table name="user" schema="" catalog="mydbstudlib" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ssoId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="firstname" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+      <column name="lastname" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user_role_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MQ=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="fk_user_user_roles" columns="user_role_id" ref-table="user_roles" ref-schema="" ref-catalog="mydbstudlib" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="unique_ssoId" unique="true" columns="ssoId"/>
+      <index name="fk_user_user_roles_idx" unique="false" columns="user_role_id"/>
+    </table>
+    <table name="user_roles" schema="" catalog="mydbstudlib" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="role" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="fk_user_user_roles" table="user" schema="" catalog="mydbstudlib" columns="user_role_id"/>
     </table>
   </data-source>
 </component>
