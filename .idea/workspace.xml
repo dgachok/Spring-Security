@@ -204,7 +204,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.65636146">
-              <caret line="161" column="21" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+              <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -1039,7 +1039,7 @@
       <workItem from="1454155221206" duration="6613000" />
       <workItem from="1454182864959" duration="11491000" />
       <workItem from="1454197717876" duration="503000" />
-      <workItem from="1454231454890" duration="1810000" />
+      <workItem from="1454231454890" duration="2593000" />
     </task>
     <task id="LOCAL-00001" summary="update database config">
       <created>1454188633156</created>
@@ -1107,11 +1107,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454232984885</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Deploy">
+      <created>1454233523446</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1454233523446</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90413000" />
+    <option name="totallyTimeSpent" value="91196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -1754,7 +1760,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65636146">
-          <caret line="161" column="21" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+          <caret line="174" column="21" selection-start-line="174" selection-start-column="21" selection-end-line="174" selection-end-column="21" />
           <folding />
         </state>
       </provider>
