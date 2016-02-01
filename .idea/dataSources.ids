@@ -24,7 +24,6 @@
       <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="role" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="id"/>
-      <exported-key name="fk_user_user_roles" table="user" schema="" catalog="registrapp" columns="user_role_id"/>
     </table>
   </data-source>
   <data-source name="MySQL - amazon" uuid="4363e0fb-a1c0-45f1-8533-4a1344ef6a96">
@@ -33,25 +32,75 @@
       <identifier-quote-string>`</identifier-quote-string>
     </database-info>
     <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
-    <schema name="" catalog="mydbstudlib"/>
-    <table name="user" schema="" catalog="mydbstudlib" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="ssoId" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
-      <column name="firstname" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
-      <column name="lastname" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
-      <column name="password" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
-      <column name="email" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
-      <column name="user_role_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4" def="MQ=="/>
-      <primary-key name="PRIMARY" columns="id"/>
-      <foreign-key name="fk_user_user_roles" columns="user_role_id" ref-table="user_roles" ref-schema="" ref-catalog="mydbstudlib" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="unique_ssoId" unique="true" columns="ssoId"/>
-      <index name="fk_user_user_roles_idx" unique="false" columns="user_role_id"/>
-    </table>
-    <table name="user_roles" schema="" catalog="mydbstudlib" type="TABLE">
-      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
-      <column name="role" sqlType="VARCHAR" precision="35" scale="0" nullable="false" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="id"/>
-      <exported-key name="fk_user_user_roles" table="user" schema="" catalog="mydbstudlib" columns="user_role_id"/>
-    </table>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="mydbstudlib"/>
+      <table id="2" parent="1" name="user"/>
+      <table id="3" parent="1" name="user_roles"/>
+      <column id="4" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="5" parent="2" name="ssoId">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="6" parent="2" name="firstname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="7" parent="2" name="lastname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="8" parent="2" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="9" parent="2" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="10" parent="2" name="user_role_id">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <index id="11" parent="2" name="fk_user_user_roles_idx">
+        <columns>user_role_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="12" parent="2" name="unique_ssoId">
+        <columns>ssoId</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="13" parent="2" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <key id="14" parent="2" name="unique_ssoId">
+        <columns>ssoId</columns>
+        <underlying-index>unique_ssoId</underlying-index>
+      </key>
+      <foreign-key id="15" parent="2" name="fk_user_user_roles">
+        <columns>user_role_id</columns>
+        <ref-key>~.user_roles.PRIMARY</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="16" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="17" parent="3" name="role">
+        <mandatory>1</mandatory>
+        <data-type>varchar(35)</data-type>
+      </column>
+      <key id="18" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+  <data-source name="MySQL - Heroku" uuid="08252d9c-44d4-4f0e-b36c-25853a620a83">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
 </component>

@@ -13,5 +13,15 @@
       <schema-pattern>mydbstudlib.*</schema-pattern>
       <default-schemas>mydbstudlib.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - Heroku" uuid="08252d9c-44d4-4f0e-b36c-25853a620a83">
+      <secret-storage>master_key</secret-storage>
+      <user-name>b48be8ff61e466</user-name>
+      <ssl-config>
+        <ca-cert>C:\Downloads\clearbd\cleardb-ca.pem</ca-cert>
+        <client-cert>C:\Downloads\clearbd\b48be8ff61e466-cert.pem</client-cert>
+        <client-key>C:\Downloads\clearbd\b48be8ff61e466-key.pem</client-key>
+        <enabled>true</enabled>
+      </ssl-config>
+    </data-source>
   </component>
 </project>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="507726689">
+  <component name="DataSourceManagerImpl" format="xml" hash="2833990431">
     <data-source source="LOCAL" name="MySQL - registrapp@localhost" uuid="279d0123-96eb-48af-93bc-a8b7ae8fb8da">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
@@ -13,7 +13,6 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
-      <libraries />
     </data-source>
     <data-source source="LOCAL" name="MySQL - amazon" uuid="4363e0fb-a1c0-45f1-8533-4a1344ef6a96">
       <driver-ref>mysql</driver-ref>
@@ -27,7 +26,19 @@
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
       </driver-properties>
-      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - Heroku" uuid="08252d9c-44d4-4f0e-b36c-25853a620a83">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>mysql://b48be8ff61e466:a12ffca2@eu-cdbr-west-01.cleardb.com/heroku_244c5d6f6ddf0b7?reconnect=true</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
     </data-source>
   </component>
 </project>
