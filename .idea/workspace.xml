@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b94d1ff-8038-43c0-8542-b75200264647" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_beust_jcommander_1_27.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_couchbase_client_couchbase_client_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_github_jsimone_webapp_runner_7_0_57_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_google_code_findbugs_annotations_1_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_heroku_sdk_heroku_jdbc_0_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_sparkjava_spark_core_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__com_sparkjava_spark_template_freemarker_2_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__commons_codec_commons_codec_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__commons_io_commons_io_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__de_javakaffee_msm_memcached_session_manager_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__de_javakaffee_msm_memcached_session_manager_tc7_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__io_netty_netty_3_5_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__net_spy_spymemcached_2_11_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_nio_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_core_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_el_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_jasper_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_api_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_el_api_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_jasper_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_jasper_el_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_jsp_api_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_juli_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_servlet_api_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_apache_tomcat_tomcat_util_7_0_57.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_codehaus_jettison_jettison_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jdt_core_compiler_ecj_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_http_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_io_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_security_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_server_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_servlet_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_util_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_webapp_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_jetty_xml_9_0_2_v20130417.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_eclipse_jetty_orbit_javax_servlet_3_0_0_v201112011016.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_freemarker_freemarker_2_3_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_javolution_javolution_5_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_jscience_jscience_4_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_postgresql_postgresql_9_4_1201_jdbc4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__org_slf4j_slf4j_simple_1_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__redis_clients_jedis_2_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__ru_zinin_tomcat_redis_session_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Downloads\spring-registration\.idea\libraries\Maven__stax_stax_api_1_0_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/registrapp/dao/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/registrapp/dao/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-registration/WEB-INF/classes/com/registrapp/dao/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/spring-registration/WEB-INF/classes/com/registrapp/dao/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-registration.war" afterPath="$PROJECT_DIR$/target/spring-registration.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-registration.iml" afterPath="$PROJECT_DIR$/spring-registration.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_registration_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_registration_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring-registration/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/spring-registration/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spring-registration.iws" />
@@ -107,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18192628">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
@@ -122,7 +68,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,16 +80,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.83538085">
+              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -150,7 +100,7 @@
       <file leaf-file-name="spring-database-online.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database-online.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-5.6666665">
               <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               <folding />
             </state>
@@ -182,7 +132,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1538#1546#0" expanded="false" />
+                <element signature="e#2250#2251#0" expanded="false" />
+                <element signature="e#2306#2307#0" expanded="false" />
+                <element signature="e#2362#2363#0" expanded="false" />
+                <element signature="e#2401#2402#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -248,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/registrapp/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/registrapp/models/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/registrationsucsess.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="dbtable:/f9316b23/279d0123-96eb-48af-93bc-a8b7ae8fb8da/registrapp..user_roles" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4363e0fb-a1c0-45f1-8533-4a1344ef6a96/console.sql" />
         <option value="dbtable:/f9316b23/279d0123-96eb-48af-93bc-a8b7ae8fb8da/registrapp..user" />
@@ -260,12 +216,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/registrapp/configuration/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/registrapp/controller/UserController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -602,7 +566,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.65">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.30">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -870,7 +834,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Tomcat 7.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.65" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="Tomcat 8.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.30" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login" />
       <deployment>
         <artifact name="spring-registration:war exploded">
           <settings>
@@ -943,7 +908,7 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.65" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 8.0.30" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -969,7 +934,7 @@
       <workItem from="1454252535566" duration="13441000" />
       <workItem from="1454321524629" duration="1106000" />
       <workItem from="1454327406695" duration="433000" />
-      <workItem from="1454332992333" duration="1818000" />
+      <workItem from="1454332992333" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="update database config">
       <created>1454188633156</created>
@@ -1065,14 +1030,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109329000" />
+    <option name="totallyTimeSpent" value="110980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49676377" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1080,6 +1046,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24971232" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3341424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36363637" sideWeight="0.49676377" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19554849" sideWeight="0.5231561" order="7" side_tool="true" content_ui="tabs" />
@@ -1091,14 +1058,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5063291" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36363637" sideWeight="0.49676377" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1141,8 +1106,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="36" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
           <folding>
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="false" />
+            <element signature="e#1430#1431#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1216,8 +1181,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="false" />
+            <element signature="e#1430#1431#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1279,8 +1244,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="false" />
+            <element signature="e#1430#1431#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1471,8 +1436,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
           <folding>
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="false" />
+            <element signature="e#1430#1431#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1489,7 +1454,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1497,7 +1464,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1505,15 +1474,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1538#1546#0" expanded="false" />
+            <element signature="e#2250#2251#0" expanded="false" />
+            <element signature="e#2306#2307#0" expanded="false" />
+            <element signature="e#2362#2363#0" expanded="false" />
+            <element signature="e#2401#2402#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1533,22 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database-online.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/registrapp/dao/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1561,10 +1513,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.444445">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-database-online.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6666665">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18192628">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83538085">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
           <folding />
         </state>
       </provider>
